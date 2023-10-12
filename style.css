@@ -1,0 +1,79 @@
+.header {
+    text-align: center;
+    box-shadow: 0 0 0 0, 0 2px 1px gray;
+}
+
+.header li {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f3f3f3;
+}
+
+.header a:hover {
+    color: yellowgreen;
+}
+
+
+.title {
+    display: inline-block;
+}
+
+.title h1 {
+    margin: 50px;
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.slider {
+    margin-top: 50px;
+    text-align: center;
+}
+.slider img{
+    width: 80%;
+    height: 600px;
+}
+
+.categories {
+    text-align: center;
+    position: relative;
+}
+
+.categories img {
+    width: 40%;
+    height: 500px;
+    margin: 40px 40px;
+    opacity: 0.5;
+}
+.categories img:hover{
+    opacity: 1;
+}
